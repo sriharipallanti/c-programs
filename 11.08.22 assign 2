@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+    int k,i,n,j=1;
+    printf("enter number of coins");
+    scanf("%d",&n);
+    for(k=1;k<=n&&j<n;k++)
+    {
+        for(i=1;i<=k;i++)
+        {
+        j++;
+            
+        }
+        
+    }
+    printf("%d",k-2);
+    return 0;
+}
+          
+
+ output:enter number of coins5
+2
+
+
+enter number of coins8
+3
