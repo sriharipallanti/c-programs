@@ -1,0 +1,29 @@
+int main()
+{
+    int r,n,sum=0,p=1,n1;
+    printf("enter n value");
+    scanf("%d",&n);
+    n1=n;
+    while(n>0)
+    {
+        r=n%10;
+        sum=sum+r;
+        n=n/10;
+    }
+    while(n1>0)
+    {
+        r=n1%10;
+        p=p*r;
+        n1=n1/10;
+    }
+    printf("%d",p-sum);
+    return 0;
+}
+    
+
+output:enter n value234
+15
+
+enter n value4421
+21
+    
